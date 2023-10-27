@@ -7,7 +7,7 @@ function MusicSideBar() {
 	return (
 		<div className="flex h-full w-[260px] flex-col items-start border-r border-[#e4e4e7] p-2">
 			<div className="flex flex-col items-start gap-2.5 px-3 pb-3 pt-6 font-Inter text-xl font-semibold leading-[24px] text-black">
-				<div>Discover</div>
+				<div>Explore</div>
 			</div>
 			<MusicSideBarItem text="Listen Now" />
 			<MusicSideBarItem text="Browse" />
