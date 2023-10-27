@@ -36,7 +36,7 @@ function MusicDemoPlaylist() {
 							<div className="font-Inter text-sm leading-[17px] text-[#86868d]">
 								Jam out to some oldies and get your retro on.
 							</div>
-							<MusicButton text="Add Song" icon="left" color="secondary" />
+							
 						</div>
 					</div>
 					<div className="flex w-full flex-col items-start gap-2.5 border-t border-[#e4e4e7] py-1">
@@ -89,6 +89,7 @@ function MusicDemoPlaylist() {
 							src="pen"
 						/>
 					</div>
+					<MusicButton text="Add Song" icon="left" color="secondary" />
 				</div>
 			</div>
 		</div>
