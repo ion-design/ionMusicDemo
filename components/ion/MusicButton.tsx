@@ -11,10 +11,10 @@ function MusicButton({ text = 'Button', icon = 'none', color = 'primary' }: Musi
 	return (
 		<div
 			className={clsx({
-				'flex h-fit items-center justify-center gap-2 rounded-lg px-4 py-2 font-Inter text-xs font-bold leading-[15px] text-white':
+				'flex h-fit items-center justify-center gap-2 rounded-xl px-4 py-2 font-Inter text-xs font-bold leading-[15px] text-white':
 					true,
 				'bg-[#18181b] hover:bg-[#42424b]': color === 'primary',
-				'bg-[#7c98b6] hover:bg-[#45586c]': color === 'secondary',
+				'bg-[#A47CB7] hover:bg-[#7F5F8D]': color === 'secondary',
 				'bg-[#b19472] hover:bg-[#d6b48c]': color === 'tertiary',
 			})}
 		>
