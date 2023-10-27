@@ -7,7 +7,7 @@ type SongControlProps = {
 
 function SongControl({ state = 'play' }: SongControlProps) {
 	return (
-		<div className="flex h-20 w-full items-center justify-between border-t border-[#e4e4e7] bg-white bg-opacity-[0.25] p-8">
+		<div className="flex h-20 w-full items-center justify-between border-t border-[#e4e4e7] bg-[#DDDDDD] bg-opacity-[0.25] p-8">
 			<div className="flex items-center justify-center gap-20 p-1">
 				<img
 					src="/images/MusicDemoPlaying/playmenu-vector.svg"
