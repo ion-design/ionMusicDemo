@@ -2,7 +2,7 @@
 // Figma Link: https://www.figma.com/file/TmB3i6PnkwYzw8PxKFsRwC?node-id=62:312
 import clsx from 'clsx';
 type MusicHeaderProps = {
-	signedin?: boolean,
+	signedin?: boolean;
 };
 
 function MusicHeader({ signedin = true }: MusicHeaderProps) {

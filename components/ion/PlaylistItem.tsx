@@ -2,12 +2,12 @@
 // Figma Link: https://www.figma.com/file/TmB3i6PnkwYzw8PxKFsRwC?node-id=117:2562
 import clsx from 'clsx';
 type PlaylistItemProps = {
-	year?: string,
-	album?: string,
-	artist?: string,
-	title?: string,
-	duration?: string,
-	src?: 'drive' | 'sun' | 'summer' | 'dj' | 'guitar' | 'sax' | 'pen' | 'volume',
+	year?: string;
+	album?: string;
+	artist?: string;
+	title?: string;
+	duration?: string;
+	src?: 'drive' | 'sun' | 'summer' | 'dj' | 'guitar' | 'sax' | 'pen' | 'volume';
 };
 
 function PlaylistItem({

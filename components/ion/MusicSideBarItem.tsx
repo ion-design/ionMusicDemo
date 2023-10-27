@@ -1,7 +1,7 @@
 // Generated with Ion on 10/18/2023, 2:54:50 PM
 // Figma Link: https://www.figma.com/file/TmB3i6PnkwYzw8PxKFsRwC?node-id=62:325
 type MusicSideBarItemProps = {
-	text?: string,
+	text?: string;
 };
 
 function MusicSideBarItem({ text = 'Listen Now' }: MusicSideBarItemProps) {

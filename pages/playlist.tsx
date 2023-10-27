@@ -8,9 +8,9 @@ import Link from 'next/link';
 
 function MusicDemoPlaylist() {
 	return (
-		<div className="flex h-screen w-screen flex-col items-start rounded-lg border-2 border-[#e4e4e7] bg-white">
+		<div className="flex w-screen h-screen flex-col items-start rounded-lg border-2 border-[#e4e4e7] bg-white">
 			<MusicHeader signedin={true} />
-			<div className="flex w-full items-start border-t border-[#e4e4e7]">
+			<div className="flex w-full h-full items-start border-t border-[#e4e4e7]">
 				<MusicSideBar />
 				<div className="flex h-full flex-1 flex-col items-start gap-5 p-8">
 					<Link href="/" passHref>
